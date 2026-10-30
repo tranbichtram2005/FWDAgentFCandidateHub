@@ -1,0 +1,185 @@
+I have uploaded the original FWD Agent 16-character infographic.
+
+IMPORTANT:
+Use the uploaded image as the ONLY source of the character illustrations.
+
+I want you to integrate these 16 original FWD Agent character cards into the existing "Discover Your Agent" experience.
+
+DO NOT redesign, redraw, regenerate, reinterpret, or modify the characters.
+
+The characters and their original visual content must remain EXACTLY as they appear in the uploaded image:
+- Same character
+- Same pose
+- Same facial expression
+- Same outfit
+- Same accessories
+- Same badge/icon
+- Same colors
+- Same character name
+- Same hashtags
+- Same Vietnamese quote
+- Same number
+
+The goal is to make the characters appear as the FINAL RESULTS of the "Discover Your Agent" personality quiz.
+
+==================================================
+DISCOVER YOUR AGENT — FINAL RESULT
+==================================================
+
+After the user completes the personality quiz, the system should show ONE matching FWD Agent result based on the user's answers.
+
+There are 16 possible results:
+
+01 — The Go-Getter
+02 — The Quick Fix
+03 — The No-BS Bro
+04 — The Chaos Bro
+05 — The Overthinker
+06 — The Detective
+07 — The Lowkey Boss
+08 — The Chill Guy
+09 — The People Bro
+10 — The Vibe Bro
+11 — The Main Character
+12 — The Yap Master
+13 — The Soft Bro
+14 — The Listener
+15 — The Big Bro
+16 — The Mom Friend
+
+==================================================
+RESULT LOGIC
+==================================================
+
+Each result should dynamically display the corresponding original character card.
+
+Example:
+
+If the quiz result is:
+"The Go-Getter"
+
+→ Display the original FWD Agent 01 character/card.
+
+If the quiz result is:
+"The Detective"
+
+→ Display the original FWD Agent 06 character/card.
+
+If the quiz result is:
+"The Mom Friend"
+
+→ Display the original FWD Agent 16 character/card.
+
+Create the result system so that all 16 characters can be used as possible outcomes.
+
+==================================================
+IMPORTANT IMAGE HANDLING
+==================================================
+
+Do NOT crop the original image into arbitrary equal-size sections.
+
+Instead, identify each of the 16 individual character cards from the uploaded source image.
+
+When displaying a result:
+- Show the COMPLETE original card.
+- Do not crop the character.
+- Do not crop the character name.
+- Do not crop hashtags.
+- Do not crop the Vietnamese quote.
+- Do not crop the badge/icon.
+- Do not cut off any part of the illustration.
+
+Keep the original proportions of each card.
+
+If the original card does not fit the result container, make the container larger or scale the card proportionally.
+
+NEVER crop the image just to fit the UI.
+
+==================================================
+RESULT PAGE DESIGN
+==================================================
+
+Add the character result to the FINAL RESULT section of the existing "Discover Your Agent" flow.
+
+The result page should feel like:
+
+"YOU ARE..."
+↓
+[Original FWD Agent character card]
+↓
+"The Go-Getter"
+↓
+A short result summary / personality interpretation
+↓
+CTA / next action
+
+The original FWD Agent card should be the visual hero of the result.
+
+Do not create a new illustration.
+
+Do not replace the original character with an AI-generated character.
+
+==================================================
+UI BEHAVIOR
+==================================================
+
+The quiz should calculate the user's result.
+
+Based on the result:
+- Select one of the 16 FWD Agent types.
+- Display the corresponding original character card.
+- Display the correct character name.
+- Display the corresponding color theme.
+
+Color themes:
+01–04 → RED / ORANGE
+05–08 → BLUE
+09–12 → YELLOW
+13–16 → GREEN
+
+The result should update dynamically depending on the user's quiz answers.
+
+==================================================
+FIGMA STRUCTURE
+==================================================
+
+Create 16 result states/variants:
+
+Result – 01 The Go-Getter
+Result – 02 The Quick Fix
+Result – 03 The No-BS Bro
+Result – 04 The Chaos Bro
+Result – 05 The Overthinker
+Result – 06 The Detective
+Result – 07 The Lowkey Boss
+Result – 08 The Chill Guy
+Result – 09 The People Bro
+Result – 10 The Vibe Bro
+Result – 11 The Main Character
+Result – 12 The Yap Master
+Result – 13 The Soft Bro
+Result – 14 The Listener
+Result – 15 The Big Bro
+Result – 16 The Mom Friend
+
+All 16 states should use the ORIGINAL uploaded artwork.
+
+==================================================
+FINAL REQUIREMENT
+==================================================
+
+The original FWD Agent artwork is LOCKED.
+
+Do not modify the artwork.
+
+Do not regenerate the artwork.
+
+Do not change the text.
+
+Do not change the colors.
+
+Do not change the character.
+
+Only integrate the original artwork into the FINAL RESULT section of the "Discover Your Agent" experience.
+
+The final experience should look like the user has completed the quiz and discovered which FWD Agent personality they are.
